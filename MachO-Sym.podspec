@@ -11,32 +11,16 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A short description of MachO-Sym.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                    代替dlsym进行符号查找
                        DESC
 
   s.homepage         = 'https://github.com/liuzuopeng/MachO-Sym'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liuzuopeng' => 'liuzuopeng@bytedance.com' }
+  s.author           = { 'liuzuopeng' => 'liuzp19890810@gmail.com' }
   s.source           = { :git => 'https://github.com/liuzuopeng/MachO-Sym.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'MachO-Sym/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MachO-Sym' => ['MachO-Sym/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

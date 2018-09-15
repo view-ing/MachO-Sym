@@ -1,5 +1,5 @@
 //
-//  VTDAppDelegate.h
+//  DVTAppDelegate.h
 //  MachO-Sym
 //
 //  Created by liuzuopeng on 09/15/2018.
@@ -8,7 +8,9 @@
 
 @import UIKit;
 
-@interface VTDAppDelegate : UIResponder <UIApplicationDelegate>
+
+
+@interface DVTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

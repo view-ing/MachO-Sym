@@ -1,14 +1,16 @@
 //
-//  VTDAppDelegate.m
+//  DVTAppDelegate.m
 //  MachO-Sym
 //
 //  Created by liuzuopeng on 09/15/2018.
 //  Copyright (c) 2018 liuzuopeng. All rights reserved.
 //
 
-#import "VTDAppDelegate.h"
+#import "DVTAppDelegate.h"
 
-@implementation VTDAppDelegate
+
+
+@implementation DVTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

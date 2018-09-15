@@ -22,8 +22,8 @@ pod 'MachO-Sym'
 
 ## Author
 
-liuzuopeng, liuzuopeng@bytedance.com
+liuzuopeng, liuzp19890810@gmail.com
 
 ## License
 
-MachO-Sym is available under the MIT license. See the LICENSE file for more info.
+`MachO-Sym` is available under the MIT license. See the LICENSE file for more info.

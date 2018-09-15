@@ -1,23 +1,33 @@
 //
-//  VTDViewController.m
+//  DVTViewController.m
 //  MachO-Sym
 //
 //  Created by liuzuopeng on 09/15/2018.
 //  Copyright (c) 2018 liuzuopeng. All rights reserved.
 //
 
-#import "VTDViewController.h"
+#import "DVTViewController.h"
+#import "LookupSymTest.h"
 
-@interface VTDViewController ()
+
+
+@interface DVTViewController ()
 
 @end
 
-@implementation VTDViewController
+@implementation DVTViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
+    [LookupSymTest test];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
 }
 
 - (void)didReceiveMemoryWarning

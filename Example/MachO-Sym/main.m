@@ -7,11 +7,11 @@
 //
 
 @import UIKit;
-#import "VTDAppDelegate.h"
+#import "DVTAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([VTDAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([DVTAppDelegate class]));
     }
 }
